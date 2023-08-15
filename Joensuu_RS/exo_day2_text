@@ -1,0 +1,6 @@
+- Select a zone of interest (i.e. the same you selected yesterday)
+- Create a data cube for this zone with only one time stamp
+- Select a spatial subportion of your area with the slice operator
+- Compute three different indexes (NDWI, ...) - https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/indexdb/
+  + For this point, you should looking for how to extract numpy array from a datacube ( array.to_numpy() )
+- Create a coloured composite from the 3 indexes at a spatial resolution of 50 m
